@@ -6,7 +6,7 @@ package persistentobjectdao;
 
 /**
  *
- * @author Louch Intan
+ * @author Nouvella Rahma F.L. / 24060124120029
  */
 public class Person {
     private int id;
