@@ -1,0 +1,11 @@
+CREATE DATABASE pbo;
+
+USE pbo;
+
+CREATE TABLE person (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name VARCHAR(100)
+)
+
+
+select * from person; 
