@@ -6,7 +6,7 @@ package jdbc.program;
 
 /**
  *
- * @author Nouvella Rahma F.L. / 24060124120029
+ * @author Nouvella Rahma Fitrah Legarsi / 24060124120029
  */
 import jdbc.model.Mahasiswa;
 import jdbc.service.MysqlMahasiswaService;
@@ -18,24 +18,24 @@ public class Program {
     public static void main(String[] args) {
         displayAll();
 
-        /*System.out.println("===insert");
+        System.out.println("===insert");
         Mahasiswa mhsAdd = new Mahasiswa("Haryo");
         service.add(mhsAdd);
-        displayAll();*/
+        displayAll();
 
-        /*System.out.println("===update");
-        Mahasiswa mhsUpdate = service.getById(3);
+        System.out.println("===update");
+        Mahasiswa mhsUpdate = service.getById(4);
         if (mhsUpdate != null) {
             System.out.println("Akan diupdate data lama: " + mhsUpdate);
             mhsUpdate.setNama("Dinaya");
             service.update(mhsUpdate);
         }
-        displayAll();*/
+        displayAll();
 
         System.out.println("===delete");
-        Mahasiswa mhsDelete = service.getById(5);
+        Mahasiswa mhsDelete = service.getById(4);
         System.out.println("Akan di delete: " + mhsDelete);
-        service.delete(5);
+        service.delete(4);
         displayAll();
     }
 
