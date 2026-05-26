@@ -22,7 +22,7 @@ public class MysqlUtility {
 
                 String url = "jdbc:mysql://localhost:3306/jdbc_mhs";
                 String user = "root";
-                String password = "kahanan!YASSA*110805";
+                String password = "";
 
                 koneksi = DriverManager.getConnection(url, user, password);
 
